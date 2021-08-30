@@ -7,7 +7,7 @@ int main()
         printf("hello");
         printf("\nwekcome");
     }
-    // printf("abcd");
+    
     else
         printf("hi");
         printf("\nbye");
