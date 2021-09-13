@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     int no = 12;
     if (no = 13)
@@ -11,5 +11,4 @@ int main()
     else
         printf("hi");
         printf("\nbye");
-    return 0;
 }

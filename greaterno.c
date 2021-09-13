@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     int fno, sno;
     printf("Please input the first no\n");
@@ -13,5 +13,4 @@ int main()
     else
         printf("The second no is greater");
 
-    return 0;
 }

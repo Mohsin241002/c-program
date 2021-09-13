@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 
 {
     int year;
@@ -10,5 +10,4 @@ int main()
         printf("The year is a leap year");
     else
         printf("The year is not a leap year");
-    return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+void main(){
     int a, b, c, d;
     a = 22;
     b = 48;
@@ -9,5 +9,4 @@ int main(){
     printf("Please provide a no");
     scanf("%d",&d);
     printf("the sum of 22 + d = %d", a + d );
-    return 0;
 }

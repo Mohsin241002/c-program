@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     
     int side1, side2, side3;
@@ -24,5 +24,4 @@ int main()
         printf("\nThe triangle is not a Right Angled Triangle");
 
     
-    return 0;
 }

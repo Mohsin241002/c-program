@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+void main(){
     int option , fno , sno , radius , no ;
     float pi=3.14 ; 
     printf("\n 1.Addition of two no's \n 2.Area of circle \n 3.Square of two no's \n");
@@ -17,5 +17,4 @@ int main(){
         printf("This option is not available");
         break;
     }
-    return 0;
 }

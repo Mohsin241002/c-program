@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     int fno, sno, tno;
     printf("Please input first no\n");
@@ -24,5 +24,4 @@ int main()
             printf("The largest no is %d", sno);
     }
 
-    return 0;
 }
