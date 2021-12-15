@@ -1,8 +1,20 @@
 // prime no from user using recursion
 
 #include <stdio.h>
-void prime();
 
+
+
+void main()
+{
+    int no;
+    printf("Enter a number\t");
+    scanf("%d", &no);
+    void prime(int);
+    if (no % 2 == 0)
+        printf("The no is not prime");
+    else
+        prime(no);
+}
 void prime(int no)
 {
     static int a = 3;
@@ -24,15 +36,4 @@ void prime(int no)
         printf("The no is Prime");
         return;
     }
-}
-
-void main()
-{
-    int no;
-    printf("Enter a number\t");
-    scanf("%d", &no);
-    if (no % 2 == 0)
-        printf("The no is not prime");
-    else
-        prime(no);
 }
